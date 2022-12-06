@@ -38,6 +38,16 @@ function draw()
         document.getElementById("song_name").innerHTML="Harry Potter Theme song";
      }
 }
+if(scoreRightWrist>0.2)
+{
+    circle(rightWristX,rightWristY,20);
+    songplaying="stop"
+
+if(Song2="false")
+{
+    song2=loadSound(song2)
+    document.getElementById("song_name").innerHTML="Peter Pan song";
+ }
 }
 
 
