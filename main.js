@@ -29,7 +29,7 @@ function draw()
     stroke("#FF0000");
     if(scoreLeftWrist>0.2)
     {
-        circle(rightWristX,rightWristY,20);
+        circle(leftWristX,leftWristY,20);
         songplaying="stop"
     
     if(Song1="false")
